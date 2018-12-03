@@ -1,8 +1,7 @@
 import React from "react";
 import "./ProjectGrid.css";
-import img1 from "../../../public/logos/img1.png";
-import img2 from "../../../public/logos/Habitica-logo.png";
-import { Link } from "gatsby";
+import img1 from "../imgs/img1.png";
+import img2 from "../imgs/Habitica-logo.png";
 
 class ProjectGrid extends React.Component {
   render() {
