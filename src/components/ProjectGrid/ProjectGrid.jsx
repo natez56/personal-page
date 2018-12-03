@@ -1,7 +1,7 @@
 import React from "react";
 import "./ProjectGrid.css";
-import img1 from "../imgs/img1.png";
-import img2 from "../imgs/Habitica-logo.png";
+import img1 from "../../imgs/img1.png";
+import img2 from "../../imgs/Habitica-logo.png";
 
 class ProjectGrid extends React.Component {
   render() {
