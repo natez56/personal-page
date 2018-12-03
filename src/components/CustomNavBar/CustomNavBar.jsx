@@ -13,7 +13,6 @@ class CustomNavBar extends React.Component {
     return (
       <div className="navStyle">
         <ListLink to="/">Home</ListLink>
-        <ListLink to="/articles">Articles</ListLink>
         <a href="https://github.com/natez56">Github</a>
       </div>
     );

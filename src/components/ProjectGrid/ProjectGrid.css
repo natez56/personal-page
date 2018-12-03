@@ -15,7 +15,11 @@ main {
   /* grid-template-rows: repeat(3, 450px); */
 }
 
-h2 {
+.grid-item a {
+  padding: 0;
+}
+
+.grid-item h2 {
   color: #444;
   font-size: 2em;
   font-family: Georgia, "Times New Roman", Times, serif;
@@ -24,7 +28,7 @@ h2 {
   margin-bottom: 10px;
 }
 
-p {
+.grid-item p {
   font-size: 1.5em;
   color: #999999;
   text-align: center;
