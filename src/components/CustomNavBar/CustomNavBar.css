@@ -1,0 +1,30 @@
+.navStyle {
+  background: #980013;
+  display: flex;
+  justify-content: center;
+}
+
+.linkStyle,
+a {
+  text-decoration: none;
+  font-size: 2em;
+  padding: 20px;
+  color: #fff;
+}
+
+.linkStyle:hover,
+a:hover {
+  text-decoration: underline;
+}
+
+@media screen and (min-width: 601px) {
+  .linkStyle {
+    font-size: 2em;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .linkStyle {
+    font-size: 1em;
+  }
+}
