@@ -2,7 +2,7 @@ main {
   background-color: #e4e4e4;
 }
 
-.container {
+.div--grid {
   padding-left: 10%;
   padding-right: 10%;
   justify-content: center;
@@ -13,11 +13,11 @@ main {
   grid-template-columns: repeat(auto-fill, 400px);
 }
 
-.grid-item a {
+.div__div--grid-item a {
   padding: 0;
 }
 
-.grid-item h2 {
+.div__div--grid-item h2 {
   color: #444;
   font-size: 2em;
   font-family: Georgia, "Times New Roman", Times, serif;
@@ -26,13 +26,13 @@ main {
   margin-bottom: 10px;
 }
 
-.grid-item p {
+.div__div--grid-item p {
   font-size: 1.5em;
   color: #999999;
   text-align: center;
 }
 
-img {
+.div__div--grid-item img {
   border-radius: 15px;
   height: 250px;
   width: 400px;
@@ -40,20 +40,20 @@ img {
 }
 
 @media screen and (max-width: 600px) {
-  img {
+  .div__div--grid-item img {
     width: 200px;
     height: 125px;
   }
 
-  .grid-item h2 {
+  .div__div--grid-item h2 {
     font-size: 1em;
   }
 
-  .grid-item p {
+  .div__div--grid-item p {
     font-size: 0.75em;
   }
 
-  .container {
+  .div--grid {
     padding-left: 10%;
     padding-right: 10%;
     justify-content: center;

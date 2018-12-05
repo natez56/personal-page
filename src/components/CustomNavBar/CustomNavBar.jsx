@@ -3,7 +3,7 @@ import "./CustomNavBar.css";
 import { Link } from "gatsby";
 
 const ListLink = props => (
-  <Link className="linkStyle" to={props.to}>
+  <Link className="link link--nav" to={props.to}>
     {props.children}
   </Link>
 );
@@ -11,8 +11,9 @@ const ListLink = props => (
 class CustomNavBar extends React.Component {
   render() {
     return (
-      <div className="navStyle">
+      <div className="div div--nav">
         <ListLink to="/">Home</ListLink>
+        <ListLink to="/articles">Notes</ListLink>
         <a href="https://github.com/natez56">Github</a>
       </div>
     );

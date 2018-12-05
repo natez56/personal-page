@@ -1,5 +1,25 @@
 .post-meta {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.div--post {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  padding-left: 20px;
+  padding-right: 20px;
+  max-width: 740px;
+  margin: 0 auto;
+}
+
+.div--post div p {
+  color: #333333;
+  letter-spacing: -0.004em;
+  line-height: 1.58;
+  font-weight: 400;
+  font-size: 1em;
+}
+
+.div--post .gatsby-highlight > pre {
+  border-radius: 10px;
 }

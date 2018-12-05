@@ -7,22 +7,22 @@ class ProjectGrid extends React.Component {
   render() {
     return (
       <main>
-        <div className="container">
-          <div className="grid-item" id="item-1">
+        <div className="div div--grid">
+          <div className="div__div--grid-item">
             <a href="https://github.com/natez56/Blog">
               <img src={img1} alt="picture of code" />
             </a>
             <h2>Personal Page</h2>
             <p>The code for my personal website.</p>
           </div>
-          <div className="grid-item" id="item-2">
+          <div className="div__div--grid-item">
             <a href="https://github.com/natez56/habitica">
               <img src={img2} alt="picture of code" />
             </a>
             <h2>Habitica Contributions</h2>
             <p>Code for Habitica Repo.</p>
           </div>
-          <div className="grid-item" id="item-2">
+          <div className="div__div--grid-item">
             <a href="https://github.com/natez56/CS467_RPG1">
               <img src={img1} alt="picture of code" />
             </a>
