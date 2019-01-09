@@ -1,0 +1,32 @@
+.nav {
+  background: #980013;
+  display: flex;
+  justify-content: center;
+}
+
+.link,
+.nav a {
+  text-decoration: none;
+  font-size: 2em;
+  padding: 10px;
+  color: #fff;
+}
+
+.link:hover,
+.nav a:hover {
+  text-decoration: underline;
+}
+
+@media screen and (min-width: 601px) {
+  .link,
+  .nav a {
+    font-size: 2em;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .link,
+  .nav a {
+    font-size: 1em;
+  }
+}

@@ -1,0 +1,44 @@
+.postMeta {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.divPost {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  max-width: 740px;
+  padding-bottom: 50px;
+  margin: 0 auto;
+  flex: 2 0 0;
+  min-width: 300px;
+}
+
+.divPost div p {
+  color: #333333;
+  letter-spacing: -0.004em;
+  line-height: 1.58;
+  font-weight: 400;
+  font-size: 1em;
+}
+
+.divPost .gatsby-highlight > pre {
+  border-radius: 10px;
+}
+
+.content {
+  display: flex;
+  height: auto;
+  min-height: 100%;
+}
+
+.postPage {
+  height: 100%;
+}
+
+.thirdColumn {
+  flex: 1 1 0;
+}
+
+.title {
+  text-align: center;
+}

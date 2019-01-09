@@ -1,0 +1,64 @@
+.link {
+  text-decoration: none;
+  color: #1a1a1a;
+}
+
+.link:hover {
+  color: grey;
+}
+
+.linkTitle {
+  font-size: 1em;
+  margin: 0 10px 0 20px;
+}
+
+.dropdown {
+  padding: 5px;
+  font-size: 1.25em;
+  margin: 0 10px 0 10px;
+  text-decoration: none;
+  color: #1a1a1a;
+}
+
+.dropdown:hover {
+  cursor: pointer;
+}
+
+.open {
+  border: 1px solid grey;
+  border-radius: 5px;
+  transition-duration: 0.8s;
+  transition-property: transform;
+}
+
+.closed {
+  border: 1px solid grey;
+  border-radius: 5px;
+  transition-duration: 0.8s;
+  transition-property: transform;
+  transform: rotate(-90deg);
+}
+
+.menuOpen {
+  border-right: 1px solid #d6d3d3;
+  border-bottom: 1px solid #d6d3d3;
+  transition-duration: 0.8s;
+  transition-property: width 2s, height 2s;
+  margin: 0;
+  max-width: 250px;
+  background-color: #f7f7f7;
+  height: 100%;
+  padding-top: 20px;
+  padding-left: 10px;
+}
+
+.menuClosed {
+  transition-duration: 0.8s;
+  transition-property: width 2s, height 2s;
+  width: 0;
+  height: 0;
+  margin: 0;
+  background-color: white;
+  padding-top: 20px;
+  padding-left: 10px;
+}
